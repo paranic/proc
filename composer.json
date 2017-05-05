@@ -1,0 +1,21 @@
+{
+    "name": "paranic/proc",
+    "description": "Linux Kernel /proc filesystem helper PHP library.",
+    "keywords": ["composer", "package", "proc", "filesystem", "kernel", "helper"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Parastatidis Nikos",
+            "email": "paranic@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "Paranic\\Proc\\": "src/"
+        }
+    }
+}
