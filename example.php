@@ -4,7 +4,8 @@ require 'vendor/autoload.php';
 
 $arp = new \Paranic\Proc\Net\Arp();
 $arp->read();
+var_dump($arp->get_records());
 
-$arp_record = $arp->find('ip_address', '127.0.0.1'))
-
-var_dump($arp_record);
+$route = new \Paranic\Proc\Net\Route();
+$route->read();
+var_dump($route->get_records());
